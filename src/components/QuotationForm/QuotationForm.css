@@ -1,0 +1,280 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (min-device-width: 1024px) {
+  .form-widget {
+    width: 100%;
+    height: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../public/images/money-falling.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form-section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    width: 35%;
+    height: 18.75rem;
+    border-radius: 10px;
+    padding: 2rem 1rem 2rem 1rem;
+    box-shadow: 0.2em 0.2em 0.7em black, inset 0 0 0.7em black;
+  }
+
+  .form-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: transparent;
+    margin-bottom: 2rem;
+    color: #aac4ff;
+    text-align: center;
+    text-shadow: 1px 1px 2px #0f0f0f;
+  }
+
+  .input-label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    font-weight: 600;
+  }
+
+  .input-valor {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: transparent;
+    height: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .form-button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    border: none;
+    font-size: 1rem;
+  }
+
+  .form-button:hover {
+    background-color: #aac4ff;
+    color: white;
+  }
+
+  .radio-group {
+    margin-top: 1rem;
+    align-items: flex-start;
+    background-color: transparent;
+  }
+
+  .radio-label {
+    background-color: transparent;
+  }
+
+  .radio-option {
+    margin-left: 0rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  form {
+    background-color: transparent;
+  }
+
+  .form-converted-value {
+    background-color: transparent;
+    padding-top: 1.3rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-device-width: 1023px) and (min-device-width: 424px) {
+  .form-widget {
+    width: 100%;
+    height: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../public/images/money-falling.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form-section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    width: 55%;
+    height: 18.75rem;
+    border-radius: 10px;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    box-shadow: 0.2em 0.2em 0.7em black, inset 0 0 0.7em black;
+  }
+
+  .form-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: transparent;
+    margin-bottom: 2rem;
+    color: #aac4ff;
+    text-align: center;
+    text-shadow: 1px 1px 2px #0f0f0f;
+  }
+
+  .input-label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    font-weight: 600;
+  }
+
+  .input-valor {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: transparent;
+    height: 1.5rem;
+    border-radius: 3px;
+  }
+
+  .form-button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    border: none;
+    font-size: 1rem;
+  }
+
+  .form-button:hover {
+    background-color: #aac4ff;
+    color: white;
+  }
+
+  .radio-group {
+    margin-top: 1rem;
+    align-items: flex-start;
+    background-color: transparent;
+  }
+
+  .radio-label {
+    background-color: transparent;
+  }
+
+  .radio-option {
+    margin-left: 0rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  form {
+    background-color: transparent;
+  }
+
+  .form-converted-value {
+    background-color: transparent;
+    padding-top: 1.3rem;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-device-width: 423px) and (min-device-width: 1px) {
+    .form-widget {
+      width: 100%;
+      height: 1050px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("../../../public/images/money-falling.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .form-section {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #ffffff;
+      width: 100%;
+      height: 25.75rem;
+      border-radius: 10px;
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+      box-shadow: 0.2em 0.2em 0.7em black, inset 0 0 0.7em black;
+    }
+  
+    .form-title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      background-color: transparent;
+      margin-bottom: 2rem;
+      color: #aac4ff;
+      text-align: center;
+      text-shadow: 1px 1px 2px #0f0f0f;
+    }
+  
+    .input-label {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: transparent;
+      font-weight: 600;
+    }
+  
+    .input-valor {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      background-color: transparent;
+      height: 1.5rem;
+      border-radius: 3px;
+    }
+  
+    .form-button {
+      width: 6rem;
+      height: 2rem;
+      border-radius: 4px;
+      transition-duration: 0.4s;
+      border: none;
+      font-size: 1rem;
+    }
+  
+    .form-button:hover {
+      background-color: #aac4ff;
+      color: white;
+    }
+  
+    .radio-group {
+      margin-top: 1rem;
+      align-items: flex-start;
+      background-color: transparent;
+    }
+  
+    .radio-label {
+      background-color: transparent;
+    }
+  
+    .radio-option {
+      margin-left: 0rem;
+      margin-right: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    form {
+      background-color: transparent;
+    }
+  
+    .form-converted-value {
+      background-color: transparent;
+      padding-top: 1.3rem;
+      font-size: 1rem;
+    }
+  }
